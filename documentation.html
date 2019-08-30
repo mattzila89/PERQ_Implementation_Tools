@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="documentationStyles.css">
+    <link rel="icon" href="icons/cog16.png">
+    <title>PERQ Integration Tools</title>
+  </head>
+
+  <body>
+    <div class="container">
+        <p align="center">
+          <img src="https://perq.com/wp-content/uploads/2018/02/PERQ_Logo-White-600x175.png" style="height: 55px;">
+          <div style="text-align: center;font-size: 27px;color:white;font-family: arial;"> Integration Tools<br>Documentation</div></p>
+
+      <p>This extension provides several tweaks to improve tools used by PERQ's Implementation team and increase
+        efficiency and accuracy of the team. If you have questions regarding this extension, encounter issues with it,
+        or have ideas for additional tweaks, please email <a href="mailto:bdean@perq.com">Brandon Dean (bdean@perq.com)</a> or <a href="mailto:mpugh@perq.com">Matthew Pugh (mpugh@perq.com)</a>.</p>
+
+      <ul class="table-of-contents">
+        <li><a href="#changeView">View Changer</a></li>
+        <li><a href="#highlightCSSDHairOnFire">Highlight CSSD Hair on Fire</a></li>
+        <li><a href="#showCIJiraColors">Show CI Jira Colors</a></li>
+        <li><a href="#dripAccountSearch">Drip Account Search</a></li>
+        <li><a href="#blinkCSSDHubAndLeadNurture">Blink CSSD Hub and Lead Nurture</a></li>
+        <li><a href="#milkywayKeyboardShortcuts">Milkyway Keyboard Shortcuts</a></li>
+        <li><a href="#checkForFatwinCode">Check for Fatwin Code</a></li>
+        <li><a href="#emailLogEnhancements">Email Log Enhancements</a></li>
+        <li><a href="#checkForIframe">Check for Iframe</a></li>
+        <li><a href="#vtFormat">Virtual Tour Formatter</a></li>
+        <li><a href="#leadroutingFormat">Lead Routing Formatter</a></li>
+        <li><a href="#dripFormat">DRIP URL Formatter</a></li>
+        <li><a href="#resizeWindow">Resizing Plugin Window</a></li>
+        <li><a href="#showPTSDJiraColors">Show PTSD Jira Colors</a></li>
+        <li><a href="#perqHubExp">HUB Experience Testing</a></li>
+        <li><a href="#selectorTool">Selector Tool</a></li>
+      </ul>
+      <section class="changeView">
+            <a name="changeView"></a>
+            <h2>View Changer</h2>
+            <p>Enables different view options, since all of the tools in the extension are only used by certain teams. It will remember your view even when closed/reopened.</p>
+            <figure>
+              <img src="images/viewChanger.png" alt="Example of View Changer">
+            </figure>
+      </section>
+
+      <section class="highlightCSSDHairOnFire">
+            <a name="highlightCSSDHairOnFire"></a>
+            <h2>Highlight CSSD Hair on Fire</h2>
+            <p>Sets a light red background on tickets with a Hair on Fire priority throughout the CSSD Jira board.</p>
+            <figure>
+              <img src="images/highlightCSSDHairOnFire.png" alt="Example of Highlight CSSD Hair On Fire">
+            </figure>
+      </section>
+
+      <section class="showCIJiraColors">
+            <a name="showCIJiraColors"></a>
+            <h2>Show CI Jira Colors</h2>
+            <p>Sets varying background colors on tickets in the CI Jira board depending on due date as shown below.</p>
+            <ul>
+              <li class="overdue">overdue</li>
+              <li class="due-today">due today</li>
+              <li class="due-this-week">due this week</li>
+              <li class="due-next-week">due in two weeks</li>
+              <li class="due-two-weeks">due in three weeks</li>
+              <li class="due-three-weeks">due in four weeks</li>
+              <li>further out than four weeks</li>
+            </ul>
+            <figure>
+              <img src="images/showCIJiraColors.png" alt="Example of Show CI Jira Colors">
+            </figure>
+      </section>
+
+      <section class="dripAccountSearch">
+            <a name="dripAccountSearch"></a>
+            <h2>Drip Account Search</h2>
+            <p>Adds a search field to the top of the account list in Drip. The field will compare the search query against
+              any part of a given account and display it in the results if the account matches.</p>
+            <p>You can Tab through results and select an account with Enter.</p>
+            <p>This feature also forces the navigation bar to be sticky, so it is not hidden when scrolled further down the page.</p>
+            <figure>
+              <img src="images/dripAccountSearch.gif" alt="Animated GIF example of Drip Account Search">
+            </figure>
+      </section>
+
+      <section class="blinkCSSDHubAndLeadNurture">
+            <a name="blinkCSSDHubAndLeadNurture"></a>
+            <h2>Blink CSSD Hub and Lead Nurture</h2>
+            <p>The "Multifamily Hub" and "Client Has Lead Nurture" fields will blink when viewing a CSSD ticket if the
+              ticket
+              has either of those options marked. This helps ensure these areas are not missed when working the ticket.</p>
+            <figure>
+              <img src="images/blinkCSSDHubAndLeadNurture.gif" alt="Animated GIF example of Blink CSSD Hub and Lead Nurture">
+            </figure>
+      </section>
+
+      <section class="milkywayKeyboardShortcuts">
+            <a name="milkywayKeyboardShortcuts"></a>
+            <h2>Milkyway Keyboard Shortcuts</h2>
+            <p>Enables Ctrl+Shift+S keyboard shortcut to open the client search window. Note you can also Tab through
+              results and use Enter to select them, but this is a native feature of Milkyway.</p>
+            <figure>
+              <img src="images/milkywayKeyboardShortcuts.gif" alt="Animated GIF example of Milkyway Keyboard Shortcuts">
+            </figure>
+      </section>
+
+      <section class="emailLogEnhancements">
+            <a name="emailLogEnhancements"></a>
+            <h2>Email Log Enhancements</h2>
+            <p>Improves the Email Log tool to show visited links and highlight rows on hover.</p>
+            <figure>
+              <img src="images/emailLogEnhancements.png" alt="Example of Email Log Enhancements">
+            </figure>
+      </section>
+      
+      <section class="checkForFatwinCode">
+            <a name="checkForFatwinCode"></a>
+            <h2>Check for Fatwin Code</h2>
+            <p>Automatically checks for Fatwin code on every page. If code is found, a green checkmark will appear on this
+              extension's icon.</p>
+            <p><em>Note: some web providers may have issues with this feature, so if you're expecting to see code up be sure to double check using the standard method.</em></p>
+            <figure>
+              <img src="images/checkForFatwinCode.gif" alt="Animated GIF example of Check for Fatwin Code">
+            </figure>
+      </section>
+      
+      <section class="checkForIframe">
+            <a name="checkForIframe"></a>
+            <h2>Check for Iframe on Page</h2>
+            <p>This will allow you to check if floorplan pages contain an iframe for proper integration, or not. If an iframe is found on the page, a red border will appear around the iframe, and an alert message will pop-up.</p>
+            <p><em>Note: Some floorplan pages may still contain iframes, but they may be outside of the floorplan section. So be sure to double check if you see the warning but no red border popping up around the floorplan section. If you are unsure, you can also check by right clicking on the floorplan section and there will be an option to reload the iframe (signifying that the section is in fact within an iframe)</em></p>
+            <figure>
+              <img src="images/iframeChecker.gif" alt="Animated GIF example of Check for Iframe">
+            </figure>
+      </section>
+      
+      <section class="vtFormat">
+            <a name="vtFormat"></a>
+            <h2>Virtual Tour Formatter</h2>
+            <p>Enables the plugin team to quickly format URLs and associated values for virtual tour builds. Once URLs and values have been input into their associated fields, the formatted result can be simply copied and then cleared for more builds.</p>
+            <figure>
+              <img src="images/VTFormatter.png" alt="Example of Virtual Tour Formatter">
+            </figure>
+      </section>
+      
+      <section class="leadroutingFormat">
+            <a name="leadroutingFormat"></a>
+            <h2>Lead Routing Formatter</h2>
+              <p>Enables the plugin team to quickly format the field input values from the promotion, and the emails associated with each input field value. Like the Virtual Tour formatter, the formatted result can be simply copied and then cleared for more builds.</p>
+            <figure>
+              <img src="images/LeadRoutingFormatter.png" alt="Example of Lead Routing Formatter">
+            </figure>
+      </section>
+      
+      <section class="dripFormat">
+            <a name="dripFormat"></a>
+            <h2>DRIP URL Formatter</h2>
+              <p>Enables the plugin team to quickly format the URLs for the Jira table. Like the other formatters, the formatted result can be simply copied for use in Jira.</p>
+              <p><em>Note: Only for Furniture clients at the moment. Be sure URLs are put in this same order every time - 
+                  
+            <ul>
+              <li class="due-four-hours">Client Name</li>
+              <li class="due-four-hours">Design Assessment</li>
+              <li class="due-four-hours">Design Consultation</li>
+              <li class="due-four-hours">Chair Consultation</li>
+              <li class="due-four-hours">Mattress Consultation</li>
+              <li class="due-four-hours">Sofa Consultation</li>
+            </ul></em></p>
+            <figure>
+              <img src="images/dripFormatter.png" alt="DRIP Formatter">
+            </figure>
+      </section>
+      
+      <section class="resizeWindow">
+            <a name="resizeWindow"></a>
+            <h2>Resizing Plugin Window</h2>
+              <p>Enables you to have the option to automatically resize the custom CSS/JS fields when navigating to the details page of a plugin for better viewing and editing.</p>
+              <p><em>Note: Page will automatically refresh for you to implement the changes upon checking the option in the extension.</em></p>
+            <figure>
+              <img src="images/resizeWindow.png" alt="Example of Resizing Window">
+            </figure>
+      </section>
+      
+      <section class="showPTSDJiraColors">
+            <a name="showPTSDJiraColors"></a>
+            <h2>Show PTSD Jira Colors</h2>
+            <p>Sets varying background colors on tickets in the PTSD Jira board depending on time to resolution, as shown below.</p>
+            <ul>
+              <li class="overduePTSD">Overdue</li>
+              <li class="due-lessthan-hour">Due in less than 1 hour</li>
+              <li class="due-hour">Due in 1+ hour</li>
+              <li class="due-two-hours">Due in 2+ hours</li>
+              <li class="due-three-hours">Due in 3+ hours</li>
+              <li class="due-four-hours">Due in 4+ hours</li>
+            </ul>
+            <figure>
+              <img src="images/showPTSDJiraColors.png" alt="Example of Show PTSD Jira Colors">
+            </figure>
+      </section>
+      
+      <section class="perqHubExp">
+            <a name="perqHubExp"></a>
+            <h2>HUB Experience Testing</h2>
+              <p>When feature is turned on in the extension, it will allow you to test different web experiences within the Hub. When one of the experience buttons is clicked on, the the experience will pop-up from the Hub.</p>
+              
+            <ul>
+                <div style="margin-left: -25px;"><b>Experiences included:</b></div>
+                <div><img src="images/exitIntent.png" alt="Exit Intent"><p style="margin-top: 0;">Exit Intent</p></div>
+                <div><img src="images/expenseCalc.png" alt="Expense Calc"><p style="margin-top: 0;">Expense Calculator</p></div>
+                <div><img src="images/FPM.png" alt="EFloor Plan Match"><p style="margin-top: 0;">Floor Plan Match</p></div>
+                <div><img src="images/NCW.png" alt="New Customer Welcome"><p style="margin-top: 0;">New Customer Welcome</p></div>
+                <div><img src="images/specialOff.png" alt="Special Offers"><p style="margin-top: 0;">Special Offers</p></div>
+                <div><img src="images/reset.png" alt="Reset Local Storage"><p style="margin-top: 0;">Reset Local Storage</p></div>
+                <div><img src="images/selectorTool.png" alt="Selector Tool"><p style="margin-top: 0;">Selector Tool</p></div>
+            </ul>
+              <p>Along with the hub experiences, you can also click and drag the settings tool anywhere you'd like on the page for better access.</p>
+              <p><em>Note: Fatwin extension must be turned on, if client isn't live. If you switch to mobile view and you can't see the tool in the bottom corner, then you'll just need to refresh and it'll show up.</em></p>
+            <figure>
+              <img src="images/PERQHubExp.png" alt="Example of PERQ Hub Experience Section">
+            </figure>
+      </section>
+      
+      <section class="selectorTool">
+            <a name="selectorTool"></a>
+            <h2>Selector Tool</h2>
+              <p>Allows you to select various elements on the page and finding out their selectors. You can click the copy button to copy the selector for easy accessibility, and then clear or exit out right next to the selector field.</p>
+              <p><em>It defaults to showing <b>shared</b> selectors, but if you deselect the shared elements until it's only showing one selector, then you'll have the unique selector you're looking for.</em></p>
+            <figure>
+              <img src="images/selectorTools.png" alt="Example of Selector Tool">
+            </figure>
+          </div>
+      </section>
+    </div>
+
+  </body>
+
+</html>

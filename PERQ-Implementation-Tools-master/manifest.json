@@ -1,0 +1,41 @@
+{
+  "name": "PERQ Implementation Tools",
+  "version": "2.0",
+  "description": "Tools to aid PERQ's Implementation team in their daily duties.",
+  "author": "Brandon Dean & Matthew Pugh",
+  "permissions": [
+    "activeTab",
+    "declarativeContent",
+    "tabs",
+    "storage"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/*"
+      ],
+      "css": [],
+      "js": [
+        "content.js",
+        "lib/moment.min.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [ "css/*", "selectorgadget.js", "interface.js" ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/cog16.png",
+      "32": "icons/cog32.png",
+      "48": "icons/cog48.png",
+      "128": "icons/cog128.png"
+    }
+  },
+  "manifest_version": 2
+}

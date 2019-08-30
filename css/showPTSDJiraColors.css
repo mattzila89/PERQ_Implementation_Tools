@@ -1,0 +1,27 @@
+.overduePTSD {
+	background-color: #ff4c4c !important;
+}
+
+.due-lessthan-hour {
+	background-color: #ffd1cc !important;
+}
+
+.due-hour {
+	background-color: lightgoldenrodyellow !important;
+}
+
+.due-two-hours {
+	background-color: #90ee9066 !important;
+}
+
+.due-three-hours {
+	background-color: #e0f1ff !important;
+}
+
+.due-four-hours {
+	background-color: unset !important;
+}
+
+.new-section {
+    border-top: 2px solid #bbb !important;
+}

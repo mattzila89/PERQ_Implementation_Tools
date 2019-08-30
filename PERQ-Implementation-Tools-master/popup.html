@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="popupStyles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container" id="container">        
+        <div id="closeButton" >&times;</div>
+        <div class="logoContainer"><img alt="" class="imageLogo" id="imageLogo" src="https://perq.com/wp-content/uploads/2018/02/PERQ_Logo-White-600x175.png"><div class="textContainer">Implementation Tools</div></div>
+        
+        <div class="displayToggle">
+            <button type="button" id="toggle1" value="toggle1">Implementation</button>
+            <button type="button" id="toggle2" value="toggle2">CSM/Sales</button>
+            <button type="button" id="toggle3" value="toggle3">Plugin</button>
+        </div>
+        
+        <form id="ImplementationView" name="ImplementationView" class="options-list">
+            <div class="input-group checkStyle">
+                <div class="slideThree">  
+                   <input type="checkbox" id="highlightCSSDHairOnFire" name="highlightCSSDHairOnFire" value="highlightCSSDHairOnFire">
+                   <label for="highlightCSSDHairOnFire"></label>
+                </div>
+                <label class="labelText">Highlight CSSD Hair on Fire</label>
+            </div>
+
+            <div class="input-group checkStyle">
+                <div class="slideThree">  
+                   <input type="checkbox" id="showCIJiraColors" name="showCIJiraColors" value="showCIJiraColors">
+                   <label for="showCIJiraColors"></label>
+                </div>
+                <label class="labelText">Show CI Jira Colors</label>
+            </div>
+
+            <div class="input-group checkStyle">
+                <div class="slideThree">  
+                   <input type="checkbox" id="dripAccountSearch" name="dripAccountSearch" value="dripAccountSearch">
+                   <label for="dripAccountSearch"></label>
+                </div>
+                <label class="labelText">Drip Account Search</label>
+            </div>
+
+            <div class="input-group checkStyle">
+                <div class="slideThree">  
+                   <input type="checkbox" id="blinkCSSDHubAndLeadNurture" name="blinkCSSDHubAndLeadNurture" value="blinkCSSDHubAndLeadNurture">
+                   <label for="blinkCSSDHubAndLeadNurture"></label>
+                </div>
+                <label class="labelText">Blink CSSD Hub &amp; Lead Nurture</label>
+            </div>
+
+            <div class="input-group checkStyle">
+                <div class="slideThree">  
+                   <input type="checkbox" id="milkywayKeyboardShortcuts" name="milkywayKeyboardShortcuts" value="milkywayKeyboardShortcuts">
+                   <label for="milkywayKeyboardShortcuts"></label>
+                </div>
+                <label class="labelText">Milkyway Keyboard Shortcuts</label>
+            </div>
+
+            <div class="input-group checkStyle">
+                <div class="slideThree">  
+                   <input type="checkbox" id="emailLogEnhancements" name="emailLogEnhancements" value="emailLogEnhancements">
+                   <label for="emailLogEnhancements"></label>
+                </div>
+                <label class="labelText">Email Log Enhancements</label>
+            </div>
+        </form>
+        <form id="CSMView" name="CSMView" class="options-list2">
+            <div id="alert">
+              <span class="closebtn" id="closebtn">&times;</span> 
+              <strong>Iframe found on page!</strong>
+            </div>
+
+            <div id="greenAlert">
+              <span class="closebtn" id="closegreenAlert">&times;</span> 
+              <strong>We're good!</strong> No iframes found on page.
+            </div>
+
+            <div class="input-group checkStyle">
+                <div class="slideThree">
+                   <input type="checkbox" id="checkForFatwinCode" name="checkForFatwinCode" value="checkForFatwinCode">
+                   <label for="checkForFatwinCode"></label>
+                </div>
+                <label class="labelText">Check for Fatwin Code</label>
+            </div>
+
+            <div class="input-group">
+                <button type="button" id="checkForIframe" value="checkForIframe" style="line-height: 24px;">Check Page For Iframe <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="window-restore" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-window-restore fa-w-16 fa-fw fa-lg"><path fill="currentColor" d="M512 48v288c0 26.5-21.5 48-48 48h-48V176c0-44.1-35.9-80-80-80H128V48c0-26.5 21.5-48 48-48h288c26.5 0 48 21.5 48 48zM384 176v288c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V176c0-26.5 21.5-48 48-48h288c26.5 0 48 21.5 48 48zm-68 28c0-6.6-5.4-12-12-12H76c-6.6 0-12 5.4-12 12v52h252v-52z" class=""></path></svg></button>
+            </div>
+        </form>
+        <form id="PluginView" name="PluginView" class="options-list3">
+            <div class="input-group">
+                <button type="button" class="collapsible" id="openFormat">Virtual Tour Formatter <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="vr-cardboard" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="svg-inline--fa fa-vr-cardboard fa-w-20 fa-fw fa-lg" style="line-height: 1.2em;float: left;"><path fill="currentColor" d="M608 64H32C14.33 64 0 78.33 0 96v320c0 17.67 14.33 32 32 32h160.22c25.19 0 48.03-14.77 58.36-37.74l27.74-61.64C286.21 331.08 302.35 320 320 320s33.79 11.08 41.68 28.62l27.74 61.64C399.75 433.23 422.6 448 447.78 448H608c17.67 0 32-14.33 32-32V96c0-17.67-14.33-32-32-32zM160 304c-35.35 0-64-28.65-64-64s28.65-64 64-64 64 28.65 64 64-28.65 64-64 64zm320 0c-35.35 0-64-28.65-64-64s28.65-64 64-64 64 28.65 64 64-28.65 64-64 64z" class=""></path></svg></button>
+                <div class="content" id="content">
+                    <textarea class="form-control" style="width: -webkit-fill-available;" id="initialTxt" placeholder="Enter URLs here" rows="10"></textarea>
+                    <textarea class="form-control" style="width: -webkit-fill-available;" id="valuesTxt" placeholder="Enter values here" rows="10"></textarea>
+
+                    <button type="button" id="formatString" class="collapsibleResult" value="formatString">Format Result</button>
+                    <div class="contentr" id="resultArea">
+                        <textarea class="form-control" style="width: -webkit-fill-available;" id="resultText" rows="10"></textarea>
+                        <button type="button" id="copyButton" value="copyButton">Copy Text</button><button type="button" id="clearButton" value="clearButton">Clear Form</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="input-group">
+                <button type="button" class="collapsible" id="openFormat2" style="line-height: 26px;">Lead Routing Formatter <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-envelope-square fa-w-14 fa-fw fa-lg" style="/* line-height: 2.6em; */width: 23px;float: left;"><path fill="currentColor" d="M400 32H48C21.49 32 0 53.49 0 80v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V80c0-26.51-21.49-48-48-48zM178.117 262.104C87.429 196.287 88.353 196.121 64 177.167V152c0-13.255 10.745-24 24-24h272c13.255 0 24 10.745 24 24v25.167c-24.371 18.969-23.434 19.124-114.117 84.938-10.5 7.655-31.392 26.12-45.883 25.894-14.503.218-35.367-18.227-45.883-25.895zM384 217.775V360c0 13.255-10.745 24-24 24H88c-13.255 0-24-10.745-24-24V217.775c13.958 10.794 33.329 25.236 95.303 70.214 14.162 10.341 37.975 32.145 64.694 32.01 26.887.134 51.037-22.041 64.72-32.025 61.958-44.965 81.325-59.406 95.283-70.199z" class=""></path></svg></button>
+                <div class="content" id="content2">
+                    <textarea class="form-control" style="width: -webkit-fill-available;" id="initialTxt2" placeholder="Enter field values here" rows="10"></textarea>
+                    <textarea class="form-control" style="width: -webkit-fill-available;" id="valuesTxt2" placeholder="Enter emails here" rows="10"></textarea>
+
+                    <button type="button" id="formatString2" class="collapsibleResult2" value="formatString2">Format Result</button>
+                    <div class="contentr2" id="resultArea2">
+                        <textarea class="form-control" style="width: -webkit-fill-available;" id="resultText2" rows="10"></textarea>
+                        <button type="button" id="copyButton2" value="copyButton2">Copy Text</button><button type="button" id="clearButton2" value="clearButton2">Clear Form</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="input-group">
+                <button type="button" class="collapsible" id="openFormat3">DRIP Formatter <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="file-alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="svg-inline--fa fa-file-alt fa-w-12 fa-fw fa-lg"><path fill="currentColor" d="M288 248v28c0 6.6-5.4 12-12 12H108c-6.6 0-12-5.4-12-12v-28c0-6.6 5.4-12 12-12h168c6.6 0 12 5.4 12 12zm-12 72H108c-6.6 0-12 5.4-12 12v28c0 6.6 5.4 12 12 12h168c6.6 0 12-5.4 12-12v-28c0-6.6-5.4-12-12-12zm108-188.1V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V48C0 21.5 21.5 0 48 0h204.1C264.8 0 277 5.1 286 14.1L369.9 98c9 8.9 14.1 21.2 14.1 33.9zm-128-80V128h76.1L256 51.9zM336 464V176H232c-13.3 0-24-10.7-24-24V48H48v416h288z" class=""></path></svg></button>
+                <div class="content" id="content3">
+                    <textarea class="form-control" style="width: -webkit-fill-available;" id="dripTxt" placeholder="Enter client name, then URLs below it here" rows="10"></textarea>
+                    <button type="button" id="formatString3" value="formatString3">Format Result</button>
+                    <button type="button" id="copyButton3" value="copyButton3">Copy Text</button>
+                </div>
+            </div>
+
+            <div class="input-group checkStyle">
+                <div class="slideThree">
+                   <input type="checkbox" id="resizeWindow" name="resizeWindow" value="resizeWindow">
+                   <label for="resizeWindow"></label>
+                </div>
+                <label class="labelText">Resize Plugin Window</label>
+            </div>
+
+            <div class="input-group checkStyle">
+                <div class="slideThree">
+                   <input type="checkbox" id="showPTSDJiraColors" name="showPTSDJiraColors" value="showPTSDJiraColors">
+                   <label for="showPTSDJiraColors"></label>
+                </div>
+                <label class="labelText">Jira PTSD Colors</label>
+            </div>
+
+            <div class="input-group checkStyle">
+                <div class="slideThree">
+                   <input type="checkbox" id="hubExp" name="hubExp" value="hubExp">
+                   <label for="hubExp"></label>
+                </div>
+                <label class="labelText">Hub Experience Testing</label>
+            </div>
+        </form>
+        
+        <footer>
+            <a href="documentation.html" target="_blank">Help</a>
+        </footer>
+        
+    </div>
+
+    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+        <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none" />
+        <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+    </svg>
+      
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="exclamation-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="alertmark svg-inline--fa fa-exclamation-circle fa-w-16 fa-5x">
+        <circle class="alertmark__circle" cx="26" cy="26" r="25" fill="none" />
+        <path fill="currentColor" d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zm-248 50c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z" class="alertmark__check"/>
+    </svg>
+
+
+    <script src="popup.js"></script>
+  </body>
+
+</html>

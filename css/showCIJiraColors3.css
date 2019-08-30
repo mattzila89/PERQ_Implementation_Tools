@@ -1,0 +1,27 @@
+.overdue {
+	background-color: #66339926 !important;
+}
+
+.due-today {
+	background-color: #ffd1cc !important;
+}
+
+.due-this-week {
+	background-color: mistyrose !important;
+}
+
+.due-next-week {
+	background-color: lightgoldenrodyellow !important;
+}
+
+.due-two-weeks {
+	background-color: #90ee9066 !important;
+}
+
+.due-three-weeks {
+	background-color: #e0f1ff !important;
+}
+
+.new-section {
+    border-top: 2px solid #bbb !important;
+}

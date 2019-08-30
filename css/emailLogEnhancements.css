@@ -1,0 +1,7 @@
+tr:not(:first-child):hover {
+    background: #c2ecf2;
+}
+
+tr a:visited {
+    color: purple;
+}

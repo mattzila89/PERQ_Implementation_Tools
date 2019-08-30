@@ -1,0 +1,114 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #eee;
+}
+
+.container {
+	width: 60%;
+    margin: 1em auto;
+	padding: 1em 3em;
+    border-radius: 5px;
+    background: #430f2d;
+}
+
+p, a {
+    color: white;
+    font-family: arial;
+    font-size: 17px;
+}
+
+h2 {
+    font-family: arial;
+    font-size: 27px;
+}
+
+section p {
+    color: black;
+}
+
+section {
+	margin: 5em 0em;
+    background: #f8eedb;
+    border-radius: 5px;
+}
+
+section:first-of-type {
+    margin-top: 2em;
+}
+
+a:visited {
+	color: tan;
+    font-family: arial;
+}
+
+figure img {
+	width: 100%;
+	border: 1px #ccc solid;
+}
+
+.showCIJiraColors ul {
+    width: 180px;
+}
+
+.showCIJiraColors ul li {
+    margin: 5px 0px;
+    padding: 5px;
+}
+
+.showPTSDJiraColors ul {
+    width: 180px;
+}
+
+.showPTSDJiraColors ul li {
+    margin: 5px 0px;
+    padding: 5px;
+}
+
+.overdue {
+	background-color: #66339926 !important;
+}
+
+.due-today {
+	background-color: #ffd1cc !important;
+}
+
+.due-this-week {
+	background-color: mistyrose !important;
+}
+
+.due-next-week {
+	background-color: lightgoldenrodyellow !important;
+}
+
+.due-two-weeks {
+	background-color: #90ee9066 !important;
+}
+
+.due-three-weeks {
+	background-color: #e0f1ff !important;
+}
+
+.overduePTSD {
+	background-color: #ff4c4c !important;
+}
+
+.due-lessthan-hour {
+	background-color: #ffd1cc !important;
+}
+
+.due-hour {
+	background-color: lightgoldenrodyellow !important;
+}
+
+.due-two-hours {
+	background-color: #90ee9066 !important;
+}
+
+.due-three-hours {
+	background-color: #e0f1ff !important;
+}
+
+.due-four-hours {
+	background-color: unset !important;
+}

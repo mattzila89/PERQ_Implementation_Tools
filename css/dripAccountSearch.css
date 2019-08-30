@@ -1,0 +1,26 @@
+.fw-account-search-container {
+	display: none;
+	width: 95%;
+	margin: 5px auto;
+}
+
+.main-nav__accounts.open .fw-account-search-container {
+	display: block;
+}
+
+.fw-account-search {
+	background: #fff;
+}
+
+.fw-hide {
+	display: none;
+}
+
+.fw-focus {
+	background: #e6e6e6 !important;
+}
+
+header.main-nav {
+	position: sticky;
+	top: 0;
+  }
